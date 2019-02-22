@@ -44,8 +44,3 @@
 .autocomplete-suggestion > .context {
     font-size: 12px;
 }
-
-.autocomplete-suggestion > .context {
-    font-size: 12px;
-    display: none;
-}

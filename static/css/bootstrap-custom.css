@@ -1,0 +1,119 @@
+/* Style overrides for Bootstrap */
+
+/* Alert */
+
+.alert {
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    color: #31708f;
+    display: flex;
+    font-style: italic;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.alert>ol>li {
+    margin: 1rem;
+}
+
+.alert-success {
+    background-color: #ecf3e9;
+    border-color: #3db54a;
+    color: #3db54a;
+}
+
+.alert-info {
+    background-color: #eaf4f9;
+    border-color: #2aace3;
+    color: #2aace3;
+}
+
+.alert-warning {
+    /* TODO SET DEFAULTS: */
+    /* background-color: #fdf8ee; */
+    /* border-color: #ffca16; */
+    /* color: #ffca16; */
+}
+
+.alert-danger {
+    background-color: #f9efef;
+    border-color: #e72537;
+    color: #e72537;
+}
+
+/* Panel */
+
+.panel {
+    background-color: #f7f7f7;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #31708f;
+    display: flex;
+    font-style: italic;
+    padding: 10px;
+}
+
+.panel-body {
+    padding: 0;
+}
+
+.panel-body>p {
+    margin: 0;
+}
+
+.panel-heading {
+    border-right: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 0;
+}
+
+.panel-footer {
+    padding: 15px 15px;
+}
+
+.panel-default>.panel-heading {
+    /* TODO: Add defaults */
+    /* color: #333333; */
+    /* background-color: #f5f5f5; */
+    /* border-color: #dddddd; */
+}
+
+.panel-primary {
+    border-color: unset;
+    /* test in IE */
+}
+
+.panel-primary>.panel-heading {
+    /* TODO: add defaults */
+    /* background-color: #337ab7; */
+    /* border-color: #337ab7; */
+}
+
+.panel-info {
+    color: unset;
+    border-color: unset;
+}
+
+.panel-info>.panel-heading {
+    background-color: #f7f7f7;
+    border-color: unset;
+    border-radius: 0 !important;
+}
+
+.panel-warning {
+    border-color: #ffca16;
+}
+
+.panel-warning>.panel-heading {
+    /* TODO: add defaults */
+    /* color: #fff; */
+    /* background-color: #ffca16; */
+    /* border-color: #ffca16; */
+}
+
+.panel-warning>.panel-heading .badge {
+    background-color: #fdf8ee;
+    color: #ffca16;
+}
