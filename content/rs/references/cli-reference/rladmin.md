@@ -27,7 +27,7 @@ CLI:
 To open the *rladmin* CLI:
 
 1. Open the operating system CLI.
-1. 1\. Use an account that is a member of the *redislabs* OS group or change
+1. Use an account that is a member of the *redislabs* OS group or change
     user to root by running the following command: sudo su --. (if you you a
     non-root user, you will need to add /opt/redislabs/bin/ to that user's
     PATH env var)
