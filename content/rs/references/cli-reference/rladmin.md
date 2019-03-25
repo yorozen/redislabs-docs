@@ -1,5 +1,5 @@
 ---
-Title: rladmin command-line interface
+Title: Using the rladmin command line
 description: 
 weight: $weight
 alwaysopen: false
