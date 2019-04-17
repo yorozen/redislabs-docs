@@ -17,7 +17,7 @@
       <link href="{{"css/bootstrap-custom.css" | relURL}}" rel="stylesheet">
       <link href="{{"css/foundation-icons.css" | relURL}}" rel="stylesheet">
 
-      {{ $style := resources.Get "theme-flex/style.css"  | resources.Fingerprint }}
+      {{ $style := resources.Get "css/style.css"  | resources.Fingerprint }}
       <link href="{{$style.RelPermalink}}" rel="stylesheet">
 
       <script src="{{"js/modernizr-custom.js" | relURL}}"></script>
