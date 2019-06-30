@@ -163,6 +163,49 @@ Ouput:
 | cell 1x1  | cell 1x2  | cell 1x3  |
 | cell 2x1  | cell 2x2  | cell 2x3  |
 
+### Tabs
+
+Syntax:
+```
+{{%/* tabs tabTotal="3" tabID="1" tabName1="Tab 1" tabName2="Tab 2" tabName3="Tab 3" */%}}
+  {{%/* tab tabNum="1" */%}}
+
+  **Tab 1 Content**
+
+  {{%/* /tab */%}}
+  {{%/* tab tabNum="2" */%}}
+
+  **Tab 2 Content**
+
+  {{%/* /tab */%}}
+  {{%/* tab tabNum="3" */%}}
+
+  **Tab 3 Content**
+
+  {{%/* /tab */%}}
+{{%/* /tabs */%}}
+```
+
+Output:
+
+{{< tabs tabTotal="3" tabID="1" tabName1="Tab 1" tabName2="Tab 2" tabName3="Tab 3" >}}
+  {{< tab tabNum="1" >}}
+
+  **Tab 1 Content**
+
+  {{< /tab >}}
+  {{< tab tabNum="2" >}}
+
+  **Tab 2 Content**
+
+  {{< /tab >}}
+  {{< tab tabNum="3" >}}
+
+  **Tab 3 Content**
+
+  {{< /tab >}}
+{{< /tabs >}}
+
 ## Images and Videos
 
 ### Adding an image
