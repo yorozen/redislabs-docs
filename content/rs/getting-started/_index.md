@@ -13,5 +13,5 @@ offered with Redis Enterprise Software.
 
 If you are looking for Redis Enterprise in a fully managed Database as a
 Service (DBaaS), please see [Redis Enterprise
-Cloud]({{< relref "/rc/_index.md" >}}) or [Redis Enterprise
-VPC]({{< relref "/rv/_index.md" >}}).
+Cloud]({{< relref "/rcessentials/_index.md" >}}) or [Redis Enterprise
+VPC]({{< relref "/rcpro/_index.md" >}}).
