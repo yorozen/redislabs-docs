@@ -165,7 +165,7 @@ Ouput:
 
 ### Tabs
 
-Source: (https://github.com/rvanhorn/hugo-dynamic-tabs)
+Source: https://github.com/rvanhorn/hugo-dynamic-tabs
 
 Syntax:
 ```
