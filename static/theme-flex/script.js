@@ -286,3 +286,11 @@ $(function() {
         showPageFeedback();
     }
 });
+
+$('#nav-tab a').on('click', function(e) {
+    e.preventDefault();
+    $(this).tab('show');
+    var T = $(this);
+    $('#nav-tab a').removeClass('active');
+    T.addClass('active');
+});
