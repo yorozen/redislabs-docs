@@ -161,7 +161,72 @@ Ouput:
 | heading 1 | heading 2 | heading 3 |
 | :-----| :-----: |-----: |
 | cell 1x1  | cell 1x2  | cell 1x3  |
-| cell 2x1  | cell 2x2  | cell 2x3  |
+| cell 2x1  | cell 2x2  | cell 2x3  |t
+
+### Tables from CSV
+The first parameter when using this shortcode is the name of the CSV file located in */static/tables* directory and the second is the number of columns in the table.
+
+Syntax:
+`{{</* table-csv "test_table.csv" 3 */>}}`
+
+File:
+
+```csv
+Name,Description,Detail
+cell 1x1,cell 1x2,cell 1x3
+cell 2x1,cell 2x2,cell 2x3
+cell 3x1,cell 3x2,cell 3x3
+```
+
+Output:
+
+{{< table-csv "test_table.csv" 3 >}}
+
+### Tabs
+
+Source: https://github.com/rvanhorn/hugo-dynamic-tabs
+
+Syntax:
+```
+{{%/* tabs tabTotal="3" tabID="1" tabName1="Tab 1" tabName2="Tab 2" tabName3="Tab 3" */%}}
+  {{%/* tab tabNum="1" */%}}
+
+  Tab 1 Content
+
+  {{%/* /tab */%}}
+  {{%/* tab tabNum="2" */%}}
+
+  Tab 2 Content
+
+  {{%/* /tab */%}}
+  {{%/* tab tabNum="3" */%}}
+
+  Tab 3 Content
+
+  {{%/* /tab */%}}
+{{%/* /tabs */%}}
+```
+
+Output:
+
+{{< tabs tabTotal="3" tabID="1" tabName1="Tab 1" tabName2="Tab 2" tabName3="Tab 3" >}}
+  {{< tab tabNum="1" >}}
+
+  **Tab 1 Content**  
+  Content in the first tab
+
+  {{< /tab >}}
+  {{< tab tabNum="2" >}}
+
+  **Tab 2 Content**
+
+  {{< /tab >}}
+  {{< tab tabNum="3" >}}
+
+  **Tab 3 Content**
+
+  {{< /tab >}}
+{{< /tabs >}}
 
 ### Tabs
 
