@@ -4,7 +4,7 @@ description:
 weight: 25
 alwaysopen: false
 categories: ["RC"]
-aliases: /rc/securing-redis-cloud-connections/
+aliases: /rv/securing-redis-cloud-connections/
 ---
 SSL/TLS support is included in all Redis Cloud Pro paid plans.
 
