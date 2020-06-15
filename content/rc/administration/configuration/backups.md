@@ -38,10 +38,16 @@ steps:
             ![new-bucket](/images/rc/new-bucket.png?width=600&height=678)
         1. Click the **Next** button.
         1. Set any bucket properties to your company's standards.
-        1. On the Set permissions page, click the **Add account** button.
+        1. Click the **Next** button.
+        1. Set Public access properties according to your company's standards.
+        1. Click the **Next** button.
+        1. Review the properties and click Create bucket button.
+        1. Search your bucket and click on the bucket name.
+        1. Move to Permissions tab and click on Access Control List section.
+        1. On the access for other AWS accounts section, click the **Add account** button.
         1. In the Account field enter:
             `fd1b05415aa5ea3a310265ddb13b156c7c76260dbc87e037a8fc290c3c86b614`
-        1. Check read/write boxes for **Objects** and **Object permissions**,
+        1. Check read/write boxes for **Objects** and **bucket permissions**,
             then click **Save**.
             ![add_s3_user](/images/rc/add_s3_user.png?width=600&height=698)
         1. Click the **Create bucket** button.
