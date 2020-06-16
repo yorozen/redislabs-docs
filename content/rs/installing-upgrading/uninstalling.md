@@ -10,7 +10,7 @@ You can uninstall Redis Enterprise Software (RS) from a node to uninstall RS
 and remove the RS files.
 By default, the files are in: `/opt/redislabs`, `/etc/opt/redislabs`, `/var/opt/redislabs`
 
-To uninstall RS from a node, run:
+To uninstall RS from a node, run with root permissions:
 
 ```src
 rl_uninstall.sh
